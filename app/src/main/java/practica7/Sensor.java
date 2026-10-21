@@ -16,4 +16,8 @@ public abstract class Sensor extends DispositivoElectronico {
     }
 
     public abstract double leerValor();
+
+    public String getUnidadMedida() {
+        return unidadMedida;
+    }
 }
